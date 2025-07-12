@@ -1,14 +1,22 @@
 <lang>
 	<!-- List of regions / states per country -->
 	<ct>
-		<c c="0" n="France" tn="fr" d="1">
+		<c c="1" n="France" tn="fr" d="1">
 			<r c="0">Bouches-du-Rhône</r>
 			<r c="1">Var</r>
 			<r c="2">Val-de-Marne</r>
 		</c>
-		<c c="1" n="Belgique" tn="be" d="1">
+		<c c="2" n="Belgique" tn="be" d="1">
 			<r c="0">Namur</r>
 			<r c="1">Bruxelles</r>
+		</c>
+		<c c="4" n="Canada" tn="ca" d="1">
+			<r c="0">Québec</r>
+			<r c="1">Ontario</r>
+		</c>
+		<c c="5" n="Suisse" tn="ch" d="1">
+			<r c="0">Genève</r>
+			<r c="1">Valais</r>
 		</c>
 	</ct>
 	<!-- Display right game name based on game id -->

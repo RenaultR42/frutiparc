@@ -28,9 +28,8 @@ TODO:
 * Lister pictos
 * Corriger wheel
 * Ajouter / supprimer contact
-* Corriger ID des pays pour avoir le bon drapeau bananocle: Suisse, France, Canada et Belgique
 * Gérer boutique
-* COmpiler SWF pour les icônes des fiches des jeux
+* Compiler SWF pour les icônes des fiches des jeux
 
 # Pref
 
