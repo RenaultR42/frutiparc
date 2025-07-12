@@ -1,0 +1,7 @@
+<f u="desktop">
+	<f u="inbox" t="inbox" p="normal" />
+	<f u="disccollector" t="disccollector" />
+	<f u="inventory" t="inventory" />
+	<f u="mycontact" t="mycontact" />
+	<f u="recyclebin" t="recyclebin" />
+</f>
