@@ -1,0 +1,15 @@
+<!-- Define tree elements for the shop -->
+<c>
+	<!-- c as category node, n for its name -->
+	<c n="Jeux">
+		<!-- c as pack, n for its name and i for its id -->
+		<p n="Pack complet de Frutisnake" i="0" />
+	</c>
+	<c n="Accessoires">
+		<p n="Casquette d'animateurs" i="1" />
+	</c>
+	<c n="Fonds d'écran">
+		<p n="Mini pixiz" i="2" />
+		<p n="Mini wave" i="3" />
+	</c>
+</c>
