@@ -36,6 +36,7 @@ TODO:
 
 ## List
 
+```
 win_flMoveAnim boolean
 cl_open boolean
 wallpaper string ("|" split)
@@ -55,15 +56,17 @@ bool = Y or N
 int = base62
 
 wallpapers url|bgColor;txtColor;Alpha
+```
 
 ## Definition
 
+```
 id (2) base62
 type (1): b, i or s
-longueur (2) base62
-nom (l)
-longueur (2) base62
-valeur by defaut (l)
+length (2) base62
+name (l)
+length (2) base62
+defaut value (l)
 
 00 b 07 cl_open 01 N
 01 b 0h dsp_newmail_alert 01 N
@@ -81,9 +84,11 @@ valeur by defaut (l)
 0b b 0c ch_dsp_leave 01 Y
 0c b 0b ch_dsp_kick 01 Y
 0d b 08 ch_dsp_h 01 Y
+```
 
 ## User settings
 
+```
 id (2) base62
 length (2) base62
 value (l)
@@ -95,4 +100,4 @@ value (l)
 04 0s wal/va.jpg|FFFFFF;000000;255
 05 01 A
 06 01 R
-
+```
