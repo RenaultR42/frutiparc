@@ -1,19 +1,25 @@
 # Start
 
 ## Main site
+```shell
 npm start
 http-server -p 5173 -a 127.0.0.1 --cors
 node XMLSocket.js
 websockify 8234 localhost:8000
+```
 
 # Start games
+```shell
 websockify 8889 localhost:8888
 node XMLSocketGame.js
+```
 
 # Scores
 
+```shell
 node XMLSocketScore.js
 websockify 8002 localhost:8001
+```
 
 TODO:
 
