@@ -1,8 +1,8 @@
 <f u="mycontact">
 	<f u="frutifamille" t="folder">
-		<e u="tigrenoir" t="contact" s="10" d="0" a="0">tigrenoir</e>
-		<e u="EmiLicorne" t="contact" s="10" d="0" a="0">EmiLicorne</e>
-		<e u="SakurAmalia" t="contact" s="10" d="0" a="0">SakurAmalia</e>
+		<e u="tigrenoir" t="contact" s="10" d="0" a="0">tigrenoir@frutiparc.com</e>
+		<e u="EmiLicorne" t="contact" s="10" d="0" a="0">EmiLicorne@frutiparc.com</e>
+		<e u="SakurAmalia" t="contact" s="10" d="0" a="0">SakurAmalia@frutiparc.com</e>
 	</f>
-	<e u="kasparov" t="contact" s="10" d="0" a="0">kasparov</e>
+	<e u="kasparov" t="contact" s="10" d="0" a="0">kasparov@frutiparc.com</e>
 </f>
