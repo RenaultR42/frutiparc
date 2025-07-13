@@ -3,7 +3,6 @@
 ## Main site
 ```shell
 npm start
-http-server -p 5173 -a 127.0.0.1 --cors
 node XMLSocket.js
 websockify 8234 localhost:8000
 ```
@@ -24,12 +23,12 @@ websockify 8002 localhost:8001
 TODO:
 
 * Lancer un jeu depuis l'interface
-* Discussion par MP / emails avec réponses automatiques
 * Lister pictos
 * Corriger wheel
-* Ajouter / supprimer contact
-* Gérer boutique
 * Compiler SWF pour les icônes des fiches des jeux
+* Compiler SWF pour les icônes de jeux
+* Réintroduire frutibouilles spéciaux
+* Réintroduire status spéciaux: eat, away, etc. via `/status <nom>` dans le chat
 
 # Pref
 
