@@ -325,7 +325,14 @@ const tcpServer = net.createServer(
 
             // Msg sent to channel
             // Input / output
-            // t = type, m for message, a for action (regarde ailleurs, bubble gum, etc.)
+            // t = type
+            //     * m for message
+            //     * a for action (regarde ailleurs, bubble gum, etc.)
+            //     * c for animator message (blue pen)
+            //     * w for moderator message (red pen)
+            //     * i to open a box with height, width, url and title
+            //     * b to set wallpaper, format: <alpha>;<url>
+            //     * g to give kikooz to another frutiz
             // p = pen index
             // g = channel id where the message comes from
             // Message as node value
@@ -338,12 +345,34 @@ const tcpServer = net.createServer(
 
                 if (type === "m" || type === "") {
                     answers.push("<t u=\"Renault\" t=\"m\" p=\"" + pen + "\" g=\"" + channel + "\">" + msg + "</t>\0");
-                    answers.push("<t u=\"kasparov\" t=\"m\" p=\"2\"  g=\"" + channel + "\">Alors " + msg + " moi j'ai dit</t>\0");
+                    answers.push("<t u=\"kasparov\" t=\"w\" g=\"" + channel + "\">Alors " + msg + " moi j'ai dit</t>\0");
+                    answers.push("<t u=\"kasparov\" t=\"c\" g=\"" + channel + "\">Msg d'un anim</t>\0");
+                    answers.push("<t u=\"bumdum\" t=\"i\" g=\"" + channel + "\"><box u=\"http://localhost/wal/pi.jpg\" w=\"150\" h=\"150\">Titre de la fenêtre</box></t>\0");
+                    answers.push("<t u=\"Renault\" t=\"b\" g=\"" + channel + "\">255;wal/pi.jpg</t>\0");
+                    answers.push("<t u=\"kasparov\" t=\"g\" g=\"" + channel + "\"><kikooz u=\"bumdum\" k=\"50\" /></t>\0");
                 } else if (type === "a") {
                     answers.push("<t u=\"Renault\" t=\"a\" g=\"" + channel + "\">" + msg + "</t>\0");
+                } else if (type === "c") {
+                    answers.push("<t u=\"" + me + "\" t=\"c\" g=\"" + channel + "\">" + msg + "</t>\0");
                 }
             }
 
+            // Change channel topic
+            // Inputs / outputs:
+            // r = rid
+            // g = channel id
+            // node = new channel name
+            if (clientData.indexOf("<an ") !== -1) {
+                answers.push(clientData);
+            }
+
+            // Open private channel with someone
+            // Inputs / outputs:
+            // u = other user
+            // node = channel name
+            if (clientData.indexOf("<r ") !== -1) {
+                answers.push(clientData);
+            }
 
             // Invite someone to a channel
             // Input
