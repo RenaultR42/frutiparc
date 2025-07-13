@@ -2,8 +2,10 @@
 <c>
 	<!-- c as category node, n for its name -->
 	<c n="Jeux">
-		<!-- c as pack, n for its name and i for its id -->
-		<p n="Pack complet de Frutisnake" i="0" />
+		<c n="Jeux complets">
+			<!-- c as pack, n for its name and i for its id -->
+			<p n="Pack complet de Frutisnake" i="0" />
+		</c>
 	</c>
 	<c n="Accessoires">
 		<p n="Casquette d'animateurs" i="1" />
