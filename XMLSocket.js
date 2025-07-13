@@ -465,6 +465,24 @@ const tcpServer = net.createServer(
                 answers.push("<bm p=\"42\" />\0");
             }
 
+            // Mute
+            // Inputs
+            // e = date of end of mute
+            // u = user
+            if (clientData.indexOf("<az ") !== -1) {
+                const end = getValueFromParam(string, "e");
+                const user = getValueFromParam(string, "u");
+
+                for ([username, info] of listFrutiz) {
+                    if (user === username) {
+                        info.mute = end;
+                    }
+                }
+
+                const trace = answerFrutizTrace(user);
+                answers.push("<z u=\"" + user + "\" " + trace + " />\0");
+            }
+
             // New status
             // Input:
             // s = status value
