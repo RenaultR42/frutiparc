@@ -45,9 +45,10 @@ Some changes in the SWF were required.
 
 ## main.swf
 
-Force resolution of the interface to 1024x768 because Ruffle is not initializing it as expected by the original code which disturbs entirely the interface layout.
-Also, some file parsing were done by spliting lines with `\r\n` (Windows format) instead of `\n` (Unix format).
-All links to download ressources are also converted to use the format `http://host:port/` from the original request instead of using `http://host:80` + `http://swf.frutiparc.com` + `http://undefined` due to wrong initialization too.
+* Force resolution of the interface to 1024x768 because Ruffle is not initializing it as expected by the original code which disturbs entirely the interface layout.
+* Also, some file parsing were done by spliting lines with `\r\n` (Windows format) instead of `\n` (Unix format).
+* All links to download ressources are also converted to use the format `http://host:port/` from the original request instead of using `http://host:80`, `http://swf.frutiparc.com` and `http://undefined` due to wrong initialization too.
+* All links can use HTTPS or HTTP, based on protocol used to download `main.swf`
 
 ## kaluga_tz.swf
 
