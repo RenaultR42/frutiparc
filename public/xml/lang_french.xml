@@ -2,40 +2,97 @@
 	<!-- List of regions / states per country -->
 	<ct>
 		<c c="1" n="France" tn="fr" d="1">
-			<r c="0">Bouches-du-Rhône</r>
-			<r c="1">Var</r>
-			<r c="2">Val-de-Marne</r>
+			<r c="0">Auvergne-Rhône-Alpes</r>
+			<r c="1">Bourgogne-Franche-Comté</r>
+			<r c="2">Bretagne</r>
+			<r c="3">Centre-Val de Loire</r>
+			<r c="4">Corse</r>
+			<r c="5">Grand Est</r>
+			<r c="6">Hauts-de-France</r>
+			<r c="7">Île-de-France</r>
+			<r c="8">Normandie</r>
+			<r c="9">Nouvelle-Aquitaine</r>
+			<r c="10">Occitanie</r>
+			<r c="11">Pays de la Loire</r>
+			<r c="12">Provence-Alpes-Côte d'Azur</r>
+			<r c="13">Guadeloupe</r>
+			<r c="14">Martinique</r>
+			<r c="15">Guyane</r>
+			<r c="16">La Réunion</r>
+			<r c="17">Mayotte</r>
 		</c>
 		<c c="2" n="Belgique" tn="be" d="1">
-			<r c="0">Namur</r>
-			<r c="1">Bruxelles</r>
+			<r c="0">Anvers</r>
+			<r c="1">Limbourg</r>
+			<r c="2">Flandre-Orientale</r>
+			<r c="3">Brabant flamand</r>
+			<r c="4">Flandre-Occidentale</r>
+			<r c="5">Bruxelles</r>
+			<r c="6">Brabant wallon</r>
+			<r c="7">Hainaut</r>
+			<r c="8">Liège</r>
+			<r c="9">Luxembourg</r>
+			<r c="10">Namur</r>
 		</c>
 		<c c="3" n="Luxembourg" tn="lu" d="1">
 			<r c="0">Luxembourg</r>
 		</c>
 		<c c="4" n="Canada" tn="ca" d="1">
-			<r c="0">Québec</r>
-			<r c="1">Ontario</r>
+			<r c="0">Alberta</r>
+			<r c="1">Colombie-Britannique</r>
+			<r c="2">Île-du-Prince-Édouard</r>
+			<r c="3">Manitoba</r>
+			<r c="4">Nouveau-Brunswick</r>
+			<r c="5">Nouvelle-Écosse</r>
+			<r c="6">Ontario</r>
+			<r c="7">Québec</r>
+			<r c="8">Saskatchewan</r>
+			<r c="9">Terre-Neuve-et-Labrador</r>
+			<r c="10">Nunavut</r>
+			<r c="11">Territoires du Nord-Ouest</r>
+			<r c="12">Yukon</r>
 		</c>
 		<c c="5" n="Suisse" tn="ch" d="1">
-			<r c="0">Genève</r>
-			<r c="1">Valais</r>
-		</c>
-		<c c="6" n="Algérie" tn="al" d="1">
-			<r c="0">Alger</r>
+			<r c="0">Appenzell Rhodes-Extérieures</r>
+			<r c="1">Appenzell Rhodes-Intérieures</r>
+			<r c="2">Argovie</r>
+			<r c="3">Bâle-Campagne</r>
+			<r c="4">Bâle-Ville</r>
+			<r c="5">Berne</r>
+			<r c="6">Fribourg</r>
+			<r c="7">Genève</r>
+			<r c="8">Glaris</r>
+			<r c="9">Grisons</r>
+			<r c="10">Jura</r>
+			<r c="11">Lucerne</r>
+			<r c="12">Neuchâtel</r>
+			<r c="13">Nidwald</r>
+			<r c="14">Obwald</r>
+			<r c="15">Saint-Gall</r>
+			<r c="16">Schaffhouse</r>
+			<r c="17">Schwytz</r>
+			<r c="18">Soleure</r>
+			<r c="19">Tessin</r>
+			<r c="20">Thurgovie</r>
+			<r c="21">Uri</r>
+			<r c="22">Valais</r>
+			<r c="23">Vaud</r>
+			<r c="24">Zoug</r>
+			<r c="25">Zurich</r>
 		</c>
 	</ct>
 	<!-- Display right game name based on game id -->
 	<gn>
-		<g d="bkiwi">Burning Kiwi</g>
-		<g d="snake3">Frutisnake 2</g>
-		<g d="mb2">Motion Ball 2</g>
-		<g d="swapou2">Swapou 2</g>
-		<g d="kaluga">Kaluga</g>
-		<g d="bandas">Frutibandas</g>
-		<g d="grapiz">Grapiz</g>
-		<g d="miniwave">Mini-Wave</g>
-		<g d="minipixiz">Mini-Pixiz</g>
+		<g d="8">Burning Kiwi</g>
+		<g d="9">Frutisnake 2</g>
+		<g d="10">Motion Ball 2</g>
+		<g d="11">Frutibandas</g>
+		<g d="12">Swapou 2</g>
+		<g d="13">Grapiz</g>
+		<g d="14">Kaluga</g>
+		<g d="15">Mini-Wave</g>
+		<g d="17">JamaJama</g>
+		<g d="18">Mini-Pixiz</g>
 	</gn>
 	<!-- Likely for Gaspard -->
 	<td>
