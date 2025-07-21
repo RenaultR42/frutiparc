@@ -6,6 +6,14 @@ let listFrutiz = new Map([
 	["Renault", {
 		experience: 424242,
 		rank: 42,
+		// starts with
+		// 00 = basic bouille
+		// 0b = yota
+		// 0c = hiko
+		// 0d = Gromelin
+		// 0e = Egerie
+		// 0n = Gaspard
+		// 0o = Dimitri
 		frutibouille: "00000d0r020f0l0000000000",
 		mute: "0000-00-00 00:00:00",
 		status: "01011",
