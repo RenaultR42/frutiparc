@@ -53,6 +53,10 @@ Some changes in the SWF were required.
 
 Add code to be able to get the tzongre from score page
 
+## fileIcon.swf
+
+Add add "linkBlogs" tag name on frutiblog icon frame
+
 # API
 
 ## Sockets
