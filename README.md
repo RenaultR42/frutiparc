@@ -34,7 +34,6 @@ The port number must finish with 1.
 * Lancer un jeu depuis l'interface
 * Lister pictos
 * Corriger wheel
-* Trouver SWF pour les icônes de Motion Ball 2 dans la fiche
 * Réintroduire status spéciaux: eat, away, etc. via `/status <nom>` dans le chat
 
 # SWF changes
@@ -48,6 +47,7 @@ Some changes in the SWF were required.
 * All links to download ressources are also converted to use the format `http://host:port/` from the original request instead of using `http://host:80`, `http://swf.frutiparc.com` and `http://undefined` due to wrong initialization too.
 * All links can use HTTPS or HTTP, based on protocol used to download `main.swf`
 * Support specific icon for AOL email address (bug in the code)
+* Change to get dungeons progression of Motion Ball from `sd/mb2/X.png` files instead of `sd/mb2_ball.swf` because last one is empty
 
 ## kaluga_tz.swf
 
