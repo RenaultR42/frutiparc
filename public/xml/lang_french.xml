@@ -83,16 +83,16 @@
 	</ct>
 	<!-- Display right game name based on game id -->
 	<gn>
-		<g d="8">Burning Kiwi</g>
-		<g d="9">Frutisnake 2</g>
-		<g d="10">Motion Ball 2</g>
-		<g d="11">Frutibandas</g>
-		<g d="12">Swapou 2</g>
-		<g d="13">Grapiz</g>
-		<g d="14">Kaluga</g>
-		<g d="15">Mini-Wave</g>
-		<g d="17">JamaJama</g>
-		<g d="18">Mini-Pixiz</g>
+		<g d="bkiwi">Burning Kiwi</g>
+		<g d="snake3">Frutisnake 2</g>
+		<g d="mb2">Motion Ball 2</g>
+		<g d="bandas">Frutibandas</g>
+		<g d="swapou2">Swapou 2</g>
+		<g d="grapiz">Grapiz</g>
+		<g d="kaluga">Kaluga</g>
+		<g d="miniwave">Mini-Wave</g>
+		<g d="jamajama">JamaJama</g>
+		<g d="minipixiz">Mini-Pixiz</g>
 	</gn>
 	<!-- Likely for Gaspard -->
 	<td>
