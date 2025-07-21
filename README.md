@@ -47,6 +47,7 @@ Some changes in the SWF were required.
 * Also, some file parsing were done by spliting lines with `\r\n` (Windows format) instead of `\n` (Unix format).
 * All links to download ressources are also converted to use the format `http://host:port/` from the original request instead of using `http://host:80`, `http://swf.frutiparc.com` and `http://undefined` due to wrong initialization too.
 * All links can use HTTPS or HTTP, based on protocol used to download `main.swf`
+* Support specific icon for AOL email address (bug in the code)
 
 ## kaluga_tz.swf
 
