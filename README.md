@@ -34,9 +34,7 @@ The port number must finish with 1.
 * Lancer un jeu depuis l'interface
 * Lister pictos
 * Corriger wheel
-* Compiler SWF pour les icônes des fiches des jeux
-* Compiler SWF pour les icônes de jeux
-* Réintroduire frutibouilles spéciaux
+* Trouver SWF pour les icônes de Motion Ball 2 dans la fiche
 * Réintroduire status spéciaux: eat, away, etc. via `/status <nom>` dans le chat
 
 # SWF changes
