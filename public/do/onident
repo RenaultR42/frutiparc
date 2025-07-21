@@ -3,7 +3,7 @@
 <!-- Level 1 = mouth, Level 2 = eyes, Level 3 = hairs, Level 4 = colors. All of them can be mixed together -->
 <user k="1111" p="1749325728000" i="1,315,316,317,318,319,320,321,322,323,324,325,326,327,599,600,601,602,833" m="1" a="0" f="0,1,2,3,4">
 	<!-- Preferences -->
-	<mp>040swal/ma.jpg|FFFFFF;000000;255</mp>
+	<mp>040swal/ma.jpg|ADE76B;000000;255</mp>
 	<!-- User log, t for type (icon) and d for date as timestamp -->
 	<ul>
 		<l d="1749325728001" t="1">Annonce utilisateur kick</l>
